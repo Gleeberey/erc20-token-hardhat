@@ -1,0 +1,29 @@
+{
+  "name": "my-token",
+  "version": "1.0.0",
+  "description": "ERC20 Token Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.19.17",
+    "chai": "^6.2.2",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0",
+    "hardhat": "^2.22.3",
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}
